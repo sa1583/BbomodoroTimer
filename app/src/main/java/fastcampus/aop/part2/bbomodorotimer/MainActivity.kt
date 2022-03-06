@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
                     seekBar ?: return
 
                     if (seekBar.progress == 0) {
-                        startCountDown()
+                        stopCountDown()
                     } else {
                         startCountDown()
                     }
